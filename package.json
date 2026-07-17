@@ -1,0 +1,17 @@
+{
+  "name": "kochbuch-backend",
+  "version": "1.0.0",
+  "description": "Kleiner Backend-Service: holt oEmbed-Daten von TikTok/Instagram/Pinterest und lässt Claude daraus ein strukturiertes Rezept extrahieren.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
